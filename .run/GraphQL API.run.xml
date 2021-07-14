@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GraphQL API" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="blogql" />
+    <working_directory value="$PROJECT_DIR$/src/cmd/go-graphql" />
+    <envs>
+      <env name="POSTGRES_USER" value="graphql_api" />
+      <env name="POSTGRES_PASSWORD" value="_please_change_me_now_" />
+      <env name="POSTGRES_URL" value="localhost" />
+      <env name="POSTGRES_DB" value="graphql" />
+    </envs>
+    <kind value="PACKAGE" />
+    <filePath value="$PROJECT_DIR$/src/cmd/go-graphql/server.go" />
+    <package value="github.com/mkm29/blogql/cmd/go-graphql" />
+    <directory value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
